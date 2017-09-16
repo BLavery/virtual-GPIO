@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-# virtGPIO.py   V0.9.6
+# virtGPIO.py   V0.9.7
 
 """
 "Virtual GPIO" uses an arduino as a GPIO device to a Raspberry Pi or PC.
@@ -261,7 +261,7 @@ PUD_DOWN = 21
 PUD_OFF = 20
 BCM = 11
 BOARD = 10
-VERSION = "0.9.6"
+VERSION = "0.9.7"
 RPI_REVISION = 0
 
 def setmode(mode):
@@ -448,7 +448,7 @@ class Servo:
     # Using any servos disables PWM on pins 9-10  (uses Timer1)
 
     def __init__(self, pin):   #  pin 3 - 10
-        setup(pin, OUTPUT)
+        setup(pin, OUT)    # fix V0.9.7
         self.pin = pin
         pass
 
@@ -1046,3 +1046,5 @@ def str1FromByte(i):
  * THE SOFTWARE.
  *
 """
+
+
