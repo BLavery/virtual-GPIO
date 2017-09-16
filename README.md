@@ -1,5 +1,11 @@
 virtual-GPIO
 ============
+**2017 note:
+This project works. I think it works well.
+But there has been minimal interest shown since its posting.
+It is now no longer subject to any maintenance
+or revision. Sometimes the marketplace just
+doesn't want/need some offerings. It's called life.**
 
 Arduino as a "GPIO" device attached to PC or Raspberry Pi, which run python control script.
 
