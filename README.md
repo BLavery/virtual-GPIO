@@ -7,6 +7,9 @@ It is now no longer subject to any maintenance
 or revision. Sometimes the marketplace just
 doesn't want/need some offerings. It's called life.**
 
+Suggestion: look into the Raspberry Pi Zero as a GPIO for your PC. See here:
+https://www.raspberrypi.org/blog/gpio-expander/
+
 Arduino as a "GPIO" device attached to PC or Raspberry Pi, which run python control script.
 
 Give your Raspberry Pi precise counters, easy IR receiver, analog inputs.
